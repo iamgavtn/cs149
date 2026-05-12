@@ -1,0 +1,473 @@
+    1  $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh\n
+    2  curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+    3  . "$HOME/.cargo/env" 
+    4  $ xcode-select --install\n
+    5  xcode-select --install
+    6  rustc --version
+    7  echo $PATH
+    8  rustup update
+    9  rustup doc --book\n
+   10  rustup doc --book\n
+   11  rustup doc --book\n
+   12  rustc main.rs
+   13  ls
+   14  cd projects
+   15  ls
+   16  rustc main.rs
+   17  cd hello_world
+   18  rustc main.rs
+   19  ./main
+   20  $ rustc main.rs\n$ ./main\nHello, world!\n
+   21  clear
+   22  rustc --version
+   23  rustc main.rs
+   24  rustc main.rs
+   25  cd hello_world
+   26  rustc main.rs
+   27  ./main
+   28  ./main
+   29  ./main
+   30  rustc main.rs
+   31  ./main
+   32  rustfmt
+   33  ls
+   34  main.rs
+   35  ./main.rs
+   36  ./main
+   37  cargo --version
+   38  ../
+   39  cd ..
+   40  cargo new hello_cargo
+   41  cd hello_cargo
+   42  ls
+   43  cargo build
+   44  ./target/debug/hello_cargo
+   45  cargo run
+   46  cargo check
+   47  $ cargo new get-dependencies\n$ cd get-dependencies\n$ cargo add rand@0.8.5 trpl@0.2.0\n
+   48  $ cargo new get-dependencies\n$ cd get-dependencies\n$ cargo add rand@0.8.5 trpl@0.2.0\n
+   49  cargo new get-dependencies
+   50  cd get-dependencies
+   51  cargo add rand@0.8.5 trpl@0.2.0
+   52  clear
+   53  rustup
+   54  cargo new variables
+   55  cd variables
+   56  cargo run
+   57  cargo run
+   58  cargo run
+   59  cargo run
+   60  cargo run
+   61  cd ..
+   62  cargo new guessing_game
+   63  cd guessing_game
+   64  cargo run
+   65  java -v
+   66  java --v
+   67  java -version
+   68  cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   69   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   70   stty -echo
+   71   pwd
+   72   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   73   javac src/*.java -d out/production/FirstCalendar && java -cp out/production/FirstCalendar TestRecurringInfo
+   74   pwd
+   75   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   76   rm src/TestRecurringInfo.java
+   77   pwd
+   78  cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   79   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   80   stty -echo
+   81   pwd
+   82   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   83   javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester && cat output.txt
+   84   pwd
+   85   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   86   printf "G\ninvalid\nQ\n" | java -cp out/production/FirstCalendar MyCalendarTester
+   87   pwd
+   88   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   89   javac src/*.java -d out/production/FirstCalendar && printf "C\nNew Test Event\n12/25/2026\n10:00\n11:00\nG\ninvalid\nQ\n" | java -cp out/production/FirstCalendar MyCalendarTester && grep -A 1 "New Test Event" output.txt
+   90   pwd
+   91   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   92   cat output.txt
+   93   pwd
+   94   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   95   rm src/VerifyQuitAndSave.java
+   96   pwd
+   97   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+   98   rm output.txt
+   99   pwd
+  100  cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  101   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  102   stty -echo
+  103   pwd
+  104   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  105   javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester non_existent.txt
+  106   pwd
+  107   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  108   mv src/events.txt src/events.txt.bak && javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester ; mv src/events.txt.bak src/events.txt
+  109   pwd
+  110   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  111   javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester
+  112   pwd
+  113   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  114   mv src/events.txt src/events.txt.bak && javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester ; mv src/events.txt.bak src/events.txt
+  115   pwd
+  116  cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  117   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  118   stty -echo
+  119   pwd
+  120   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  121   javac src/*.java -d out/production/FirstCalendar && java -cp out/production/FirstCalendar VerifyDelete
+  122   pwd
+  123   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  124   rm src/VerifyDelete.java
+  125   pwd
+  126  cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  127   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  128   stty -echo
+  129   pwd
+  130   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  131   mv src/events.txt src/events.txt.bak && javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester ; mv src/events.txt.bak src/events.txt
+  132   pwd
+  133   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  134   bash RunTrial.sh > TrialOutput.txt 2>&1 && cat TrialOutput.txt
+  135   pwd
+  136   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  137   cat output.txt
+  138   pwd
+  139   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  140   bash RunTrial.sh > TrialOutput.txt 2>&1 && cat TrialOutput.txt
+  141   pwd
+  142   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  143   rm RunTrial.sh TrialOutput.txt output.txt
+  144   pwd
+  145  cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  146   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  147   stty -echo
+  148   pwd
+  149   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  150   mv src/events.txt src/events.txt.bak && javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester ; mv src/events.txt.bak src/events.txt
+  151   pwd
+  152   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  153   ls src/
+  154   pwd
+  155   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  156   find . -name "events.txt"
+  157   pwd
+  158   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  159   javac src/*.java -d out/production/FirstCalendar && printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester
+  160   pwd
+  161   cd /Users/gavinnguyen/IdeaProjects/FirstCalendar
+  162   printf "Q\n" | java -cp out/production/FirstCalendar MyCalendarTester
+  163   pwd
+  164  npx create-react-app testingApp
+  165  npx create-react-app testingApp
+  166  npm -v
+  167  npm --v
+  168  npx create-react-app testingApp
+  169  npm -v
+  170  npm -v
+  171  npm install
+  172  npm -v
+  173  # Download and install nvm:\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash\n\n# in lieu of restarting the shell\n\. "$HOME/.nvm/nvm.sh"\n\n# Download and install Node.js:\nnvm install 24\n\n# Verify the Node.js version:\nnode -v # Should print "v24.14.0".\n\n# Verify npm version:\nnpm -v # Should print "11.9.0".\n
+  174  npm -v
+  175  git config --global crediential.helper osxkeychain
+  176  cd Documents
+  177  git clone https://github.com/arjunsudheer/cmpe-165-likehome.git
+  178  cd cmpe-165-likehome
+  179  npm install
+  180  brew install node
+  181  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  182  brew install node
+  183  cd ../
+  184  brew install node
+  185  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  186  echo >> /Users/gavinnguyen/.zprofile\n    echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/gavinnguyen/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+  187  echo >> /Users/gavinnguyen/.zprofile
+  188  echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/gavinnguyen/.zprofile
+  189  echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/gavinnguyen/.zprofile
+  190  eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+  191  cd cmpe-165-likehome
+  192  brew install node
+  193  npm install
+  194  npm create vite@latest my-jigsaw-night-app -- --template react
+  195  ls
+  196  mv my-jigsaw-night-app my-jigsaw-app
+  197  ls
+  198  nano package-lock.json
+  199  mv my-jigsaw-app jigsaw-frontend-react-app
+  200  ls
+  201  cd jigsaw-frontend-react-app
+  202  ls
+  203  nano package.json
+  204  cd ../
+  205  ls
+  206  nano package-lock.json
+  207  cd jigsaw-frontend-react-app
+  208  ls
+  209  nano .gitignore
+  210  ls
+  211  ls -a
+  212  git checkout -b US-I04.1/initialize-react-app  
+  213  git add .
+  214  git commit -m "Initialized the React app using Vite"
+  215  git push origin US-I04.1/initialize-react-app
+  216  git push origin US-I04.1/initialize-react-app
+  217  git push origin US-I04.1/initialize-react-app
+  218  git push origin US-I04.1/initialize-react-app
+  219  npm run dev
+  220  npm -v
+  221  cd jigsaw-frontend-react-app
+  222  ls
+  223  git checkout US-I04.1/initialize-react-app
+  224  npm run de
+  225  npm run dev
+  226  npm install
+  227  cd jigsaw-frontend-react-app
+  228  npm run dev
+  229  cd ./
+  230  cd cmpe-165-likehome
+  231  cd ../
+  232  ls
+  233  git add jigsaw-frontend-react-app/README.md
+  234  git commit -m "Update README with setup and build instructions"
+  235  git checkout README.md
+  236  git add jigsaw-frontend-react-app/README.md
+  237  git commit -m "Update README with setup and build instructions"
+  238  git config --global user.name "Gavin Nguyen"
+  239  git config --global user.email gavin.nguyen@sjsu.edu
+  240  git commit --amend --reset-author --no-edit
+  241  git push
+  242  git push --set-upstream origin US-I04.1/initialize-react-app
+  243  git clone https://github.com/arjunsudheer/cmpe-165-likehome.git
+  244  npm run dev
+  245  npm install
+  246  git fetch origin
+  247  git checkout feat/register_page
+  248  npm run dev
+  249  cd frontend
+  250  ls
+  251  cd cmpe-165-likehome
+  252  npm run dev
+  253  ls
+  254  cd jigsaw-frontend-react-app
+  255  npm run dev
+  256  npm install
+  257  npm run dev
+  258  git clone https://github.com/arjunsudheer/cmpe-165-likehome.git
+  259  cd cmpe-165-likehome
+  260  cd 
+  261  git pull origin main
+  262  git clone https://github.com/arjunsudheer/cmpe-165-likehome.git
+  263  cd frontend
+  264  ls
+  265  cd cmpe-165-likehome
+  266  ls
+  267  cd frontend
+  268  npm install
+  269  npm run dev
+  270  npm run dev
+  271  npm install react-router-dom
+  272  npm run dev
+  273  npn install ogl
+  274  npm install ogl
+  275  npm run dev
+  276  npm run dev
+  277  npm run dev
+  278  cd cmpe-165-likehome\ngit status\ngit checkout feature/us-rp02.3-balance-display
+  279  \tgit fetch origin\n
+  280  git checkout feature/us-rp02.3-balance-display
+  281  git merge origin/main
+  282  git commit -m "Merge origin/main into feature branch"
+  283  cd frontend\nnpm install react-router-dom
+  284  cat > src/constants.ts << 'EOF'\nexport const MOCK_BALANCE = 420.369;\nexport const POINTS_TO_DOLLAR = 100;\nexport const MOCK_BOOKING_TOTAL = 289.0;\nEOF
+  285  cat > src/RewardsPage.tsx << 'EOF'\nimport { useState, useEffect } from "react";\nimport { MOCK_BALANCE, POINTS_TO_DOLLAR } from "./constants";\nimport "./RewardsPage.css";\n\nexport default function RewardsPage() {\n  const [balance, setBalance] = useState(0);\n  const [loading, setLoading] = useState(true);\n\n  useEffect(() => {\n    const timer = setTimeout(() => {\n      setBalance(MOCK_BALANCE);\n      setLoading(false);\n    }, 600);\n    return () => clearTimeout(timer);\n  }, []);\n\n  if (loading) return null;\n\n  const dollarValue = balance / POINTS_TO_DOLLAR;\n\n  return (\n    <div className="rewards-container">\n      <div className="rewards-card">\n        <div className="rewards-header">\n          <p className="rewards-title">Your Rewards</p>\n        </div>\n        <div className="rewards-balance">\n          <p className="balance-points">\n            {balance.toLocaleString(undefined, { maximumFractionDigits: 0 })}{" "}\n            <span className="balance-label">points</span>\n          </p>\n          <p className="balance-dollars">\n            ≈ ${dollarValue.toFixed(2)}\n          </p>\n        </div>\n      </div>\n    </div>\n  );\n}\nEOF
+  286  cat > src/CheckoutPage.tsx << 'EOF'\nimport { useState, useEffect } from "react";\nimport { MOCK_BALANCE, POINTS_TO_DOLLAR, MOCK_BOOKING_TOTAL } from "./constants";\nimport "./CheckoutPage.css";\n\nexport default function CheckoutPage() {\n  const [balance, setBalance] = useState(0);\n  const [pointsToRedeem, setPointsToRedeem] = useState(0);\n  const [loading, setLoading] = useState(true);\n\n  useEffect(() => {\n    const timer = setTimeout(() => {\n      setBalance(MOCK_BALANCE);\n      setLoading(false);\n    }, 600);\n    return () => clearTimeout(timer);\n  }, []);\n\n  const maxPoints = Math.min(balance, MOCK_BOOKING_TOTAL * POINTS_TO_DOLLAR);\n  const discount = pointsToRedeem / POINTS_TO_DOLLAR;\n  const pct = maxPoints > 0 ? (pointsToRedeem / maxPoints) * 100 : 0;\n\n  if (loading) return null;\n\n  if (balance <= 0) {\n    return (\n      <div className="checkout-container">\n        <div className="rewards-card">\n          <div className="rewards-header">\n            <p className="rewards-title">Use Rewards</p>\n            <p style={{ fontSize: 13, color: "#6b7280", margin: 0 }}>\n              No rewards points available\n            </p>\n          </div>\n        </div>\n      </div>\n    );\n  }\n\n  return (\n    <div className="checkout-container">\n      <div className="rewards-card">\n        <div className="rewards-header">\n          <p className="rewards-title">Use Rewards</p>\n          <p className="rewards-balance-label">\n            {balance.toLocaleString(undefined, { maximumFractionDigits: 0 })} pts\n            {" "}(${(balance / POINTS_TO_DOLLAR).toFixed(2)})\n          </p>\n        </div>\n        <div className="slider-section">\n          <label htmlFor="points-slider" className="slider-label">\n            Redeem points\n          </label>\n          <input\n            id="points-slider"\n            type="range"\n            min={0}\n            max={maxPoints}\n            value={pointsToRedeem}\n            onChange={(e) => setPointsToRedeem(Number(e.target.value))}\n            className="points-slider"\n          />\n          <div className="slider-info">\n            <span>{pointsToRedeem.toLocaleString()} pts</span>\n            <span>{pct.toFixed(0)}%</span>\n          </div>\n        </div>\n        <div className="checkout-summary">\n          <div className="summary-row">\n            <span>Booking total</span>\n            <span>${MOCK_BOOKING_TOTAL.toFixed(2)}</span>\n          </div>\n          <div className="summary-row discount">\n            <span>Points discount</span>\n            <span>-${discount.toFixed(2)}</span>\n          </div>\n          <div className="summary-row total">\n            <span>You pay</span>\n            <span>${(MOCK_BOOKING_TOTAL - discount).toFixed(2)}</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  );\n}\nEOF
+  287  cat > src/App.tsx << 'EOF'\nimport { BrowserRouter, Routes, Route } from "react-router-dom";\nimport Register from "./Register";\nimport RewardsPage from "./RewardsPage";\nimport CheckoutPage from "./CheckoutPage";\n\nexport default function App() {\n  return (\n    <BrowserRouter>\n      <Routes>\n        <Route path="/" element={<Register />} />\n        <Route path="/rewards" element={<RewardsPage />} />\n        <Route path="/checkout" element={<CheckoutPage />} />\n      </Routes>\n    </BrowserRouter>\n  );\n}\nEOF
+  288  npm run build
+  289  cat > src/Register.tsx << 'ENDOFFILE'\nimport { useState } from "react";\nimport "./Register.css";\n\ninterface FormErrors {\n  name?: string;\n  email?: string;\n  password?: string;\n}\n\nexport default function Register() {\n  const [form, setForm] = useState({ name: "", email: "", password: "" });\n  const [errors, setErrors] = useState<FormErrors>({});\n  const [status, setStatus] = useState("");\n\n  const validate = () => {\n    const e: FormErrors = {};\n    if (!form.name.trim()) e.name = "Please enter your name";\n    if (!/^\S+@\S+\.\S+$/.test(form.email)) e.email = "Please enter a valid email";\n    if (form.password.length < 6) e.password = "Password must be at least 6 characters";\n    setErrors(e);\n    return Object.keys(e).length === 0;\n  };\n\n  const handleChange = (k: keyof typeof form) => (ev: React.ChangeEvent<HTMLInputElement>) =>\n    setForm({ ...form, [k]: ev.target.value });\n\n  const handleSubmit = async (ev: React.FormEvent<HTMLFormElement>) => {\n    ev.preventDefault();\n    setStatus("");\n    if (!validate()) return;\n\n    try {\n      const res = await fetch("/api/register", {\n        method: "POST",\n        headers: { "Content-Type": "application/json" },\n        body: JSON.stringify(form),\n      });\n      if (!res.ok) {\n        const data = await res.json();\n        setStatus("Failed: " + (data.message || res.statusText));\n        return;\n      }\n      setStatus("Registration successful!");\n      setForm({ name: "", email: "", password: "" });\n    } catch (err: unknown) {\n      const message = err instanceof Error ? err.message : String(err);\n      setStatus("Network error: " + message);\n    }\n  };\n\n  return (\n    <div className="register-container">\n      <div className="register-brand">\n        <h2>LikeHome</h2>\n        <p>Find your perfect home and build your dream life</p>\n        <div className="register-features">\n          <div className="feature">\n            <div className="feature-icon">🏠</div>\n            <div className="feature-text">\n              <h3>Wide Selection</h3>\n              <p>Browse thousands of properties</p>\n            </div>\n          </div>\n          <div className="feature">\n            <div className="feature-icon">🔒</div>\n            <div className="feature-text">\n              <h3>Safe & Secure</h3>\n              <p>Your data is protected with us</p>\n            </div>\n          </div>\n          <div className="feature">\n            <div className="feature-icon">⚡</div>\n            <div className="feature-text">\n              <h3>Quick Process</h3>\n              <p>Register and start in minutes</p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div className="register-card">\n        <div className="register-content">\n          <div className="register-header">\n            <h1>Create Account</h1>\n            <p>Join us today and start exploring</p>\n          </div>\n          <form onSubmit={handleSubmit} noValidate className="register-form">\n            <div className="form-group">\n              <label htmlFor="name">Full Name</label>\n              <input\n                id="name"\n                type="text"\n                value={form.name}\n                onChange={handleChange("name")}\n                placeholder="John Doe"\n                className={errors.name ? "input-error" : ""}\n              />\n              {errors.name && <span className="error-message">{errors.name}</span>}\n            </div>\n            <div className="form-group">\n              <label htmlFor="email">Email Address</label>\n              <input\n                id="email"\n                type="email"\n                value={form.email}\n                onChange={handleChange("email")}\n                placeholder="your@email.com"\n                className={errors.email ? "input-error" : ""}\n              />\n              {errors.email && <span className="error-message">{errors.email}</span>}\n            </div>\n            <div className="form-group">\n              <label htmlFor="password">Password</label>\n              <input\n                id="password"\n                type="password"\n                value={form.password}\n                onChange={handleChange("password")}\n                placeholder="At least 6 characters"\n                className={errors.password ? "input-error" : ""}\n              />\n              {errors.password && (\n                <span className="error-message">{errors.password}</span>\n              )}\n            </div>\n            <button type="submit" className="submit-button">\n              Create Account\n            </button>\n          </form>\n          {status && (\n            <div className={`status-message ${status.includes("successful") ? "success" : "error"}`}>\n              {status}\n            </div>\n          )}\n        </div>\n      </div>\n    </div>\n  );\n}\nENDOFFILE
+  290  cd ~/testingTakeTwo/cmpe-165-likehome
+  291  cd ../
+  292  ls
+  293  switch main
+  294  cd ..
+  295  switch main
+  296  git switch main
+  297  git pull origin main
+  298  cd cmpe-165-likehome
+  299  git pull origin main
+  300  git switch main
+  301  git clone https://github.com/arjunsudheer/cmpe-165-likehome.git
+  302  cd cmpe-165-likehome
+  303  cd frontend
+  304  npm install
+  305  npm audit fix
+  306  npm run dev
+  307  dir
+  308  ls
+  309  cd cmpe-165-likehome
+  310  psql now
+  311  cd backend
+  312  pip install -r requirements.txt
+  313  pip3 install -r requirements.txt
+  314  pip install -r requirements.txt
+  315  brew install postgresql
+  316  brew services start postgresql
+  317  psql 
+  318  psql
+  319  psql -U postgres -d postgres -h localhost
+  320  psql postgres
+  321  psql -U postgres
+  322  sudo -u postgres psql
+  323  pip install -r requirements.txt
+  324  pip3 install -r requirements.txt
+  325  cd ..
+  326  python3 -m backend.db.init_db
+  327  psql postgres -c "CREATE DATABASE likehome;"\n
+  328  pip3 install -r backend/requirements.txt
+  329  python3 -m backend.db.init_db\n
+  330  python3 -c "from backend import create_app; from backend.scheduler import start_scheduler; app = create_app(); start_scheduler(); app.run(debug=False, port=5001)"\n
+  331  npm run dev
+  332  cd frontend
+  333  cd cmpe-165-likehome
+  334  cd frontend
+  335  npm run dev
+  336  python3 -c "from backend import create_app; from backend.scheduler import start_scheduler; app = create_app(); start_scheduler(); app.run(debug=False, port=5001)"\n
+  337  npm run dev
+  338  pwd
+  339  cs ~
+  340  cd Desktop/
+  341  ls -latr ; mkdir cs149 ; cs cs149
+  342  clear
+  343  pwd
+  344  cd ~
+  345  cd Desktop/
+  346  ls -latr ; mkdir cs149 ; cd cs149
+  347  date
+  348  pwd
+  349  cd ~
+  350  cd Desktop/cs149
+  351  ls -latr ; mkdir wsA ; cd wsA
+  352  ls -latr
+  353  echo $?
+  354  man ps
+  355  ps aux
+  356  top
+  357  curl -L -O https://github.com/torvalds/linux/archive/master.zip
+  358  unzip master.zip
+  359  cd linux-master
+  360  pwd
+  361  alias l='ls -latr'
+  362  l
+  363  find . -name mem.c
+  364  find . -name mem.c | xargs head
+  365  find . -name mem.c | xargs grep 86
+  366  cd ..
+  367  pwd
+  368  pstree
+  369  ps -a -f -x
+  370  ps -a -f -x | more
+  371  top
+  372  man kill
+  373  echo $?
+  374  echo $$
+  375  cd ~/Desktop/
+  376  cd cs149
+  377  cd wsA
+  378  ls | wc
+  379  ls | sort
+  380  ls | sort | wc
+  381  ls -latr /bin/ > a.out
+  382  cat a.out | more
+  383  sudo dtruss ls
+  384  cp /bin/ls ./my_ls
+  385  bash -c 'echo "My PID is: $$"; sleep 15; exec ./my_ls'
+  386  sudo dtruss -t open_nocancel -p 6048
+  387  rm ./my_ls
+  388  du -sh
+  389  df -i
+  390  history > worksheetA.log
+  391  head worksheetA.log
+  392  tail worksheetA.log
+  393  cat worksheetA.log
+  394  history 1 > worksheetA.log
+  395  tail -n 60 worksheetA.log > clean_worksheet.log
+  396  mv clean_worksheet.log worksheetA.log
+  397  python3 --version
+  398  python lessonOne.py
+  399  ls
+  400  python lessonOne.py
+  401  brew install mac-cleanup-go
+  402  mac-cleanup
+  403  python wordcount.py words.txt
+  404  python wordcount.py words.txt
+  405  python wordcount.py words.txt
+  406  python wordcount.py words.txt
+  407  python wordcount.py words.txt
+  408  python wordcount.py words.txt
+  409  python wordcount.py words.txt
+  410  python wordcount.py words.txt
+  411  python wordcount.py words.txt
+  412  python wordcount.py words.txt
+  413  python wordcount.py words.txt
+  414  python wordcount.py testFile.txt
+  415  python wordcount.py words.txt
+  416  python wordcount.py testFile.txt
+  417  python categorize.py nums.txt result.txt
+  418  python categorize.py nums.txt result.txt
+  419  python analyze.py mixed.txt
+  420  python analyze.py mixed.txt
+  421  python analyze.py mixed.txt
+  422  python analyze.py mixed.txt
+  423  python analyze.py mixed.txt
+  424  gcc -o shell.c -Wall -Werror
+  425  gcc -o shell shell.c -Wall -Werror
+  426  gcc -D_REENTRANT -pthread -o countnames countnames.c -Wall -Werror
+  427  ./countnames test/names1.txt test/names2.txt
+  428  ./countnames test/names1.txt test/names2.txt
+  429  brew tap riscv-software-src/riscv
+  430  brew install riscv-tools
+  431  brew install qemu
+  432  qemu-system-riscv64 --version
+  433  riscv64-unknown-elf-gcc --version
+  434  cd ~/Desktop
+  435  mkdir cs149
+  436  mkdir cs149
+  437  cd cs149
+  438  git init
+  439  git remote add origin https://github.com/iamgavtn/cs149.git
+  440  git config --global user.email "iamgavtn@gmail.com"
+  441  git config --global user.name "Gavin Nguyen"
+  442  mkdir WS_bonus
+  443  git clone git://g.csail.mit.edu/xv6-labs-2023\n
+  444  cd xv6-labs-2023
+  445  cd user
+  446  nano sleep.c
+  447  cat sleep.c
+  448  cd ..
+  449  nano Makefile
+  450  grep sleep Makefile
+  451  make qemu
+  452  nano Makefile
+  453  make qemu
+  454  ./grade-lab-util sleep
+  455  cp user/sleep.c ~/Desktop/cs149/WS_bonus/\n
+  456  cd ~/Desktop/cs149/WS_bonus
+  457  history > worksheetB.log
+  458  head worksheetB.log\n
+  459  cd ~/Desktop/cs149
+  460  git status
+  461  nano .gitignore
+  462  git status
+  463  git add .gitignore WS_bonus/\n
+  464  git status
+  465  git commit -m "WS_bonus: xv6 sleep program"
+  466  git remote -v
+  467  git push -u origin main
+  468  cd ~/Desktop/cs149
+  469  wget -O out.pdf https://tinyurl.com/yy94jltt
+  470  curl -L -o out.pdf https://tinyurl.com/yy94jltt
+  471  ls -latr
+  472  history > cmds.log
+  473  head cmds.log\n
