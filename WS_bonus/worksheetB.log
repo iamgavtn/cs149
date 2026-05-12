@@ -1,0 +1,16 @@
+  441  git config --global user.name "Gavin Nguyen"
+  442  mkdir WS_bonus
+  443  git clone git://g.csail.mit.edu/xv6-labs-2023\n
+  444  cd xv6-labs-2023
+  445  cd user
+  446  nano sleep.c
+  447  cat sleep.c
+  448  cd ..
+  449  nano Makefile
+  450  grep sleep Makefile
+  451  make qemu
+  452  nano Makefile
+  453  make qemu
+  454  ./grade-lab-util sleep
+  455  cp user/sleep.c ~/Desktop/cs149/WS_bonus/\n
+  456  cd ~/Desktop/cs149/WS_bonus
